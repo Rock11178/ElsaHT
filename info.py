@@ -53,7 +53,7 @@ NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/7d7cbf0d6c39dc5a05f5a.
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/b58f576fed14cd645d2cf.jpg")
 
 # Welcome area
-MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/e54cae941b9b81f13eb71.jpg")
+MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/aa02e78fee22f273b6744.jpg")
 MELCOW_VID = environ.get('MELCOW_VID',"")
 
 
@@ -93,19 +93,19 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/Elsasupportgp")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/cinemala_com1")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+1dbVg9pA2GphZmI1")
-MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
+S_GROUP = environ.get('S_GROUP',"https://t.me/KOMBOTZZSUPPORT")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/KOMOFFICIAL")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+Y5ydwOg94Y0wYWU1")
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴡʜᴀᴛ ᴀʀᴇ yᴏᴜ ʟᴏᴏᴋɪɴɢ 👀')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Elsasupportgp')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'KOMBOTZZSUPPORT')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CUSTOM_FILE_CAPTION}")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION",  "{file_name}\n \n🎗️ʝσιи 🎗️ ѕнαяє🎗️ ѕυρρσят🎗️\nᴊᴏɪɴ ᴡɪᴛʜ ᴜs\n✯𝙅𝙊𝙄𝙉 :-⇊\nhttps://t.me/KOMBOTZZ\n✯𝙅𝙊𝙄𝙉 :-⇊\nhttps://t.me/KINGOFMOVIES003\n🎗️ʝσιи 🎗️ ѕнαяє🎗️ ѕυρρσят🎗️\n")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION",  "{file_name}\n \n🎗️ʝσιи 🎗️ ѕнαяє🎗️ ѕυρρσят🎗️\nᴊᴏɪɴ ᴡɪᴛʜ ᴜs\n✯𝙅𝙊𝙄𝙉 :-⇊\nhttps://t.me/KOMBOTZZ\n✯𝙅𝙊𝙄𝙉 :-⇊\nhttps://t.me/KINGOFMOVIES003\n🎗️ʝσιи 🎗️ ѕнαяє🎗️ ѕυρρσят🎗️\n")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
